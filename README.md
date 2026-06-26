@@ -13,6 +13,8 @@ Sitio estático (HTML/CSS/JS puro, sin build tool) con switch de idioma ES/EN.
 - **Imágenes de proyectos**: hoy son mockups genéricos en `assets/img/projects/*.svg` (bar, psi, casasinti, nomade, terminal). Si tenés capturas reales (sobre todo de `perspectivanomade.com`, que es pública), reemplazá el archivo correspondiente o cambiá el campo `"image"` del proyecto en el JSON para que apunte a un `.webp`/`.png` real.
 - **WhatsApp**: el número vive en un solo lugar, `WHATSAPP_NUMBER` en `assets/js/main.js` — se usa para el botón del hero, el botón flotante y la card de contacto, así que para cambiarlo solo hay que tocar esa constante. El mensaje predeterminado que se precarga al abrir el chat es `contact.whatsappMessage` en ambos JSON de `i18n/`.
 - **Datos de contacto**: email y LinkedIn reales en `index.html`, sección `#contact`.
+- **Meta tags / preview de LinkedIn**: en el `<head>` de `index.html` están los tags Open Graph, Twitter Card y el JSON-LD (autor + fecha de publicación) que usan LinkedIn/Facebook/WhatsApp para armar la preview del link. Todos apuntan a `https://martinprono.pages.dev/` — **si en algún momento conectás un dominio propio, hay que actualizar esa URL en los 8 lugares donde aparece** (`canonical`, `og:url`, `og:image`, `twitter:image`, `article:*`, JSON-LD) y volver a "limpiar caché" el link en el [LinkedIn Post Inspector](https://www.linkedin.com/post-inspector/), porque LinkedIn cachea la preview vieja.
+- **Imagen de preview (og-image)**: está en `assets/img/og/og-image.jpg` (1200×630). Si cambiás el nombre, rol o tagline del hero, conviene regenerarla para que la preview no quede desactualizada.
 
 ## Cómo verlo localmente
 
