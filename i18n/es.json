@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "title": "Martín Prono — Desarrollador Web Full-Stack",
+    "description": "Desarrollador web full-stack con +7 años de experiencia. Sistemas de gestión a medida e integración de IA en WhatsApp/Instagram."
+  },
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Trayectoria",
+    "stack": "Stack",
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "langSwitch": "Cambiar idioma a inglés"
+  },
+  "hero": {
+    "kicker": "Desarrollador Web Full-Stack",
+    "title": "Martín Prono",
+    "tagline": "Construyo sistemas de gestión a medida y automatizo la atención al cliente con IA.",
+    "typing": [
+      "Desarrollador PHP / Laravel",
+      "Integrador de IA en WhatsApp / Instagram",
+      "+7 años de experiencia"
+    ],
+    "ctaPrimary": "Hablemos por WhatsApp",
+    "ctaSecondary": "Ver proyectos",
+    "scrollHint": "Scroll"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "paragraph1": "Soy desarrollador de software con más de 7 años de experiencia y sólidas habilidades para resolver problemas. Mis mayores virtudes son la responsabilidad, el pragmatismo y la perseverancia.",
+    "paragraph2": "A lo largo de mi carrera trabajé tanto en mantenimiento y mejora de e-commerce (especializado en Magento 2) como en el desarrollo completo de sistemas a medida. Últimamente me enfoqué en construir sistemas de gestión para pequeños negocios y profesionales independientes (ventas, turnos, pacientes) y en integrar inteligencia artificial en canales reales de atención al cliente, como WhatsApp e Instagram.",
+    "credential": "Analista de Sistemas — Instituto ICOP",
+    "location": "Santa Fe, Argentina",
+    "photoAlt": "Foto de perfil de Martín Prono, desarrollador web full-stack"
+  },
+  "experience": {
+    "title": "Trayectoria",
+    "subtitle": "Más de 7 años trabajando en equipos remotos y proyectos propios",
+    "items": [
+      {
+        "role": "Desarrollador Back-End Remoto",
+        "company": "Globant",
+        "period": "sep. 2024 — mar. 2025",
+        "description": "Desarrollo de soluciones a medida sobre Magento 2 Cloud, participando además en el onboarding y capacitación de nuevos integrantes del equipo."
+      },
+      {
+        "role": "Desarrollador Full-Stack Remoto",
+        "company": "Rentiner",
+        "period": "jul. 2024 — actualidad",
+        "description": "Refactorización y modernización de una plataforma legacy de alquiler de autos en PHP nativo, con migración progresiva hacia Laravel y desarrollo de PWA con React dentro del ecosistema Magento."
+      },
+      {
+        "role": "Desarrollador Full-Stack Remoto",
+        "company": "Plexus Tech",
+        "period": "oct. 2022 — mar. 2024",
+        "description": "Desarrollo de soluciones e-commerce a medida sobre Magento 2, manteniendo un código limpio y fácil de actualizar."
+      },
+      {
+        "role": "Desarrollador Full-Stack Remoto",
+        "company": "121ecommerce",
+        "period": "feb. 2022 — ago. 2022",
+        "description": "Desarrollo y corrección de errores en tiendas Magento 2 para clientes internacionales."
+      },
+      {
+        "role": "Desarrollador Full-Stack Remoto",
+        "company": "Linets",
+        "period": "oct. 2020 — feb. 2022",
+        "description": "Especialista en Magento 2: desarrollo de nuevas funcionalidades y resolución de errores en tiendas existentes."
+      },
+      {
+        "role": "Desarrollador Full-Stack",
+        "company": "Serfe",
+        "period": "ene. 2019 — oct. 2020",
+        "description": "Primera experiencia full-stack a gran escala, especializándome en el framework Magento 2."
+      },
+      {
+        "role": "Desarrollador Full-Stack Freelance",
+        "company": "J.K. Kilgelmann",
+        "period": "jun. 2017 — sep. 2018",
+        "description": "Diseño de soluciones de software a medida para resolver problemas puntuales de clientes, con foco en la corrección de errores."
+      }
+    ]
+  },
+  "stack": {
+    "title": "Stack técnico",
+    "categories": {
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "infra": "Infraestructura",
+      "ecommerce": "E-commerce",
+      "ai": "IA / Integraciones",
+      "blockchain": "Blockchain"
+    }
+  },
+  "services": {
+    "title": "Servicios",
+    "subtitle": "Lo que puedo hacer por tu negocio",
+    "items": [
+      {
+        "title": "Sistemas de gestión a medida",
+        "description": "Desarrollo de software a medida para ventas, turnos, clientes y reportes, adaptado a la forma de trabajar de tu negocio."
+      },
+      {
+        "title": "E-commerce con Magento",
+        "description": "Implementación, integración y mantenimiento de tiendas online sobre Magento."
+      },
+      {
+        "title": "Automatización con IA",
+        "description": "Bots de atención por WhatsApp e Instagram con IA, capaces de responder consultas reales y detectar intención de compra o reserva."
+      },
+      {
+        "title": "Consultoría y modernización",
+        "description": "Revisión, mantenimiento y modernización de sistemas legacy, optimización de bases de datos y despliegue con Docker."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Proyectos destacados",
+    "subtitle": "Casos reales, con stack verificado en producción",
+    "visitLabel": "Visitar sitio",
+    "caseStudyLabel": "Caso de estudio privado",
+    "items": [
+      {
+        "title": "Sistema de gestión de ventas para un bar",
+        "description": "Aplicación para administrar productos, clientes, ventas y reportes diarios/mensuales, con roles de usuario y backups automáticos.",
+        "stack": ["PHP", "MySQL", "Docker"],
+        "image": "assets/img/projects/bar.svg",
+        "url": null
+      },
+      {
+        "title": "Sistema de gestión de pacientes para un consultorio psicológico",
+        "description": "Plataforma para gestionar turnos y fichas de pacientes, con sincronización de Google Calendar y manejo seguro de datos sensibles.",
+        "stack": ["PHP", "MySQL", "Google Calendar API"],
+        "image": "assets/img/projects/psi.svg",
+        "url": null
+      },
+      {
+        "title": "Bot de IA para atención de una administradora de cabañas",
+        "description": "Bot que responde mensajes y comentarios de WhatsApp e Instagram usando IA, detecta intención de reserva y modera spam automáticamente.",
+        "stack": ["Laravel", "React", "OpenAI API", "Meta Graph API"],
+        "image": "assets/img/projects/casasinti.svg",
+        "url": null
+      },
+      {
+        "title": "Perspectiva Nómade — fotografía y filmación aérea",
+        "description": "Sitio web para un fotógrafo de drones: galería de trabajos, integración con Instagram y contacto directo por WhatsApp, optimizado para SEO.",
+        "stack": ["PHP", "Docker", "Instagram API", "SEO"],
+        "image": "assets/img/projects/nomade.svg",
+        "url": "https://www.perspectivanomade.com"
+      },
+      {
+        "title": "TerminalTrading — seguimiento de operaciones",
+        "description": "Dashboard para analizar el rendimiento de trading en múltiples cuentas, con métricas, gráficos y filtros, integrado con la API de SimpleFX.",
+        "stack": ["PHP", "MVC", "SimpleFX API"],
+        "image": "assets/img/projects/terminal.svg",
+        "url": null
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Tenés un proyecto en mente? Escribime.",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "whatsappMessage": "¡Hola Martín! Vi tu portfolio y me gustaría contarte sobre un proyecto.",
+    "whatsappAria": "Escribirme por WhatsApp",
+    "emailAria": "Enviarme un email",
+    "linkedinAria": "Ver mi perfil de LinkedIn",
+    "githubAria": "Ver mi perfil de GitHub"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "builtWith": "Sitio diseñado y desarrollado a mano."
+  }
+}

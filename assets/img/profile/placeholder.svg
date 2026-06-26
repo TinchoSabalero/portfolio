@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480">
+  <rect width="480" height="480" fill="#11161f"/>
+  <circle cx="240" cy="190" r="80" fill="none" stroke="#1f2733" stroke-width="6"/>
+  <path d="M90 420c10-90 80-150 150-150s140 60 150 150" fill="none" stroke="#1f2733" stroke-width="6"/>
+  <text x="240" y="460" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="14" fill="#8b98a9">reemplazar por foto real</text>
+</svg>

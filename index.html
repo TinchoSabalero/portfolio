@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="meta.title">Martín Prono — Desarrollador Web Full-Stack</title>
+  <meta name="description" content="Desarrollador web full-stack con +7 años de experiencia. Sistemas de gestión a medida e integración de IA en WhatsApp/Instagram." data-i18n-attr="content:meta.description">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/effects.css">
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#hero" class="nav__brand">Martín<span class="nav__brand-dot">.</span>Prono</a>
+
+      <nav class="nav__links" id="nav-links">
+        <a href="#about" data-i18n="nav.about">Sobre mí</a>
+        <a href="#experience" data-i18n="nav.experience">Trayectoria</a>
+        <a href="#stack" data-i18n="nav.stack">Stack</a>
+        <a href="#services" data-i18n="nav.services">Servicios</a>
+        <a href="#projects" data-i18n="nav.projects">Proyectos</a>
+        <a href="#contact" data-i18n="nav.contact">Contacto</a>
+      </nav>
+
+      <div class="nav__actions">
+        <button id="lang-toggle" class="lang-toggle" type="button" data-i18n-attr="aria-label:nav.langSwitch" aria-label="Cambiar idioma a inglés">
+          <span data-lang-label="es" class="lang-toggle__opt is-active">ES</span>
+          <span class="lang-toggle__sep">/</span>
+          <span data-lang-label="en" class="lang-toggle__opt">EN</span>
+        </button>
+        <button id="nav-burger" class="nav__burger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__grid"></div>
+        <span class="hero__line hero__line--1"></span>
+        <span class="hero__line hero__line--2"></span>
+        <span class="hero__line hero__line--3"></span>
+      </div>
+
+      <div class="container hero__content">
+        <p class="hero__kicker mono" data-i18n="hero.kicker">Desarrollador Web Full-Stack</p>
+        <h1 class="hero__title" data-i18n="hero.title">Martín Prono</h1>
+        <p class="hero__typing mono">
+          <span id="typing-text"></span><span class="hero__cursor" aria-hidden="true"></span>
+        </p>
+        <p class="hero__tagline" data-i18n="hero.tagline">
+          Construyo sistemas de gestión a medida y automatizo la atención al cliente con IA.
+        </p>
+
+        <div class="hero__cta">
+          <a href="https://wa.me/5493425148399" id="hero-cta-primary" class="btn btn--primary" data-whatsapp-link target="_blank" rel="noopener" data-i18n="hero.ctaPrimary">Hablemos por WhatsApp</a>
+          <a href="#projects" class="btn btn--ghost" data-i18n="hero.ctaSecondary">Ver proyectos</a>
+        </div>
+      </div>
+
+      <a href="#about" class="hero__scroll mono" aria-hidden="true">
+        <span data-i18n="hero.scrollHint">Scroll</span>
+        <span class="hero__scroll-line"></span>
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="container about__grid">
+        <div class="about__photo-wrap reveal">
+          <div class="about__photo">
+            <!-- TODO Martin: reemplazar por tu foto real en assets/img/profile/ (ver README) -->
+            <img src="assets/img/profile/yo.jpeg" alt="Foto de perfil de Martín Prono, desarrollador web full-stack" data-i18n-attr="alt:about.photoAlt" loading="lazy" width="480" height="480">
+          </div>
+          <p class="about__credential mono" data-i18n="about.credential">Analista de Sistemas — Instituto ICOP</p>
+          <p class="about__location mono" data-i18n="about.location">Santa Fe, Argentina</p>
+        </div>
+
+        <div class="about__text reveal">
+          <h2 class="section__title" data-i18n="about.title">Sobre mí</h2>
+          <p data-i18n="about.paragraph1">
+            Soy desarrollador de software con más de 7 años de experiencia y sólidas habilidades para resolver
+            problemas. Mis mayores virtudes son la responsabilidad, el pragmatismo y la perseverancia.
+          </p>
+          <p data-i18n="about.paragraph2">
+            A lo largo de mi carrera trabajé tanto en mantenimiento y mejora de e-commerce (especializado en Magento 2)
+            como en el desarrollo completo de sistemas a medida. Últimamente me enfoqué en construir sistemas de
+            gestión para pequeños negocios y profesionales independientes (ventas, turnos, pacientes) y en integrar
+            inteligencia artificial en canales reales de atención al cliente, como WhatsApp e Instagram.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section experience">
+      <div class="container">
+        <h2 class="section__title reveal" data-i18n="experience.title">Trayectoria</h2>
+        <p class="section__subtitle reveal" data-i18n="experience.subtitle">Más de 7 años trabajando en equipos remotos y proyectos propios</p>
+
+        <div class="experience__timeline" id="experience-timeline">
+          <!-- generado por main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section id="stack" class="section stack">
+      <div class="container">
+        <h2 class="section__title reveal" data-i18n="stack.title">Stack técnico</h2>
+
+        <div class="stack__grid" id="stack-grid">
+          <!-- generado por main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section services">
+      <div class="container">
+        <h2 class="section__title reveal" data-i18n="services.title">Servicios</h2>
+        <p class="section__subtitle reveal" data-i18n="services.subtitle">Lo que puedo hacer por tu negocio</p>
+
+        <div class="services__grid" id="services-grid">
+          <!-- generado por main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section__title reveal" data-i18n="projects.title">Proyectos destacados</h2>
+        <p class="section__subtitle reveal" data-i18n="projects.subtitle">Casos reales, con stack verificado en producción</p>
+
+        <div class="projects__grid" id="projects-grid">
+          <!-- generado por main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container contact__inner">
+        <h2 class="section__title reveal" data-i18n="contact.title">Contacto</h2>
+        <p class="section__subtitle reveal" data-i18n="contact.subtitle">¿Tenés un proyecto en mente? Escribime.</p>
+
+        <div class="contact__grid reveal">
+          <a class="contact__card" href="https://wa.me/5493425148399" data-whatsapp-link target="_blank" rel="noopener" data-i18n-attr="aria-label:contact.whatsappAria" aria-label="Escribirme por WhatsApp">
+            <span class="contact__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.9 1-.2.2-.3.2-.6.1-1.6-.8-2.7-1.4-3.8-3.2-.3-.5.3-.5.8-1.6.1-.2 0-.4-.1-.6-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4-.2 0-.4 0-.6 0-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 1.9 3 4.7 4.1 2.8 1.1 2.8.7 3.3.7s1.6-.6 1.8-1.2c.2-.6.2-1.1.1-1.2-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.9-1.3C8.4 21.5 10.2 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.6 0-3.2-.4-4.5-1.2l-.3-.2-3 .8.8-2.9-.2-.3C4 14.9 3.5 13.5 3.5 12 3.5 7.3 7.3 3.5 12 3.5S20.5 7.3 20.5 12 16.7 20 12 20z"/></svg>
+            </span>
+            <span data-i18n="contact.whatsapp">WhatsApp</span>
+          </a>
+
+          <a class="contact__card" href="mailto:martinpro_95@hotmail.com" data-i18n-attr="aria-label:contact.emailAria" aria-label="Enviarme un email">
+            <span class="contact__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M2 5h20v14H2V5zm2 2v.5l8 5 8-5V7l-8 5-8-5z"/></svg>
+            </span>
+            <span data-i18n="contact.email">Email</span>
+          </a>
+
+          <a class="contact__card" href="https://www.linkedin.com/in/mart%C3%ADn-prono-703930127" target="_blank" rel="noopener" data-i18n-attr="aria-label:contact.linkedinAria" aria-label="Ver mi perfil de LinkedIn">
+            <span class="contact__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.6 4.1 5.5 3 5.5s-1.98-.9-1.98-2S1.9 1.5 3 1.5s1.98.9 1.98 2zM1 8.5h4V23H1V8.5zM8.5 8.5h3.8v2h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V23h-4v-6.6c0-1.57-.03-3.6-2.2-3.6-2.2 0-2.54 1.72-2.54 3.49V23h-4V8.5z"/></svg>
+            </span>
+            <span data-i18n="contact.linkedin">LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="mono">© <span id="footer-year"></span> Martín Prono — <span data-i18n="footer.rights">Todos los derechos reservados.</span></p>
+      <p class="mono footer__built" data-i18n="footer.builtWith">Sitio diseñado y desarrollado a mano.</p>
+    </div>
+  </footer>
+
+  <!-- Botón flotante: fijo en pantalla, aparece al pasar el hero (que ya tiene su propio CTA grande) -->
+  <a id="whatsapp-fab" class="whatsapp-fab" href="https://wa.me/5493425148399" data-whatsapp-link target="_blank" rel="noopener" data-i18n-attr="aria-label:contact.whatsappAria" aria-label="Escribirme por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.9 1-.2.2-.3.2-.6.1-1.6-.8-2.7-1.4-3.8-3.2-.3-.5.3-.5.8-1.6.1-.2 0-.4-.1-.6-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4-.2 0-.4 0-.6 0-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 1.9 3 4.7 4.1 2.8 1.1 2.8.7 3.3.7s1.6-.6 1.8-1.2c.2-.6.2-1.1.1-1.2-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.9-1.3C8.4 21.5 10.2 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.6 0-3.2-.4-4.5-1.2l-.3-.2-3 .8.8-2.9-.2-.3C4 14.9 3.5 13.5 3.5 12 3.5 7.3 7.3 3.5 12 3.5S20.5 7.3 20.5 12 16.7 20 12 20z"/></svg>
+  </a>
+
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

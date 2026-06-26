@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 375">
+  <defs>
+    <radialGradient id="glow-bar" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid-bar" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M0 32V0H32" fill="none" stroke="#1f2733" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="600" height="375" fill="#0a0e14"/>
+  <rect width="600" height="375" fill="url(#grid-bar)"/>
+  <rect width="600" height="375" fill="url(#glow-bar)"/>
+
+  <rect x="0" y="0" width="600" height="36" fill="#11161f"/>
+  <circle cx="20" cy="18" r="5" fill="#1f2733"/>
+  <circle cx="38" cy="18" r="5" fill="#1f2733"/>
+  <circle cx="56" cy="18" r="5" fill="#1f2733"/>
+  <rect x="220" y="9" width="160" height="18" rx="9" fill="#0a0e14"/>
+  <text x="300" y="22" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#8b98a9">bar-ventas.local</text>
+
+  <g transform="translate(300,205)" stroke="#00f0ff" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-42 -50h84v36c0 28-19 50-42 50s-42-22-42-50v-36z"/>
+    <path d="M42 -38h14a18 18 0 0 1 0 36h-14"/>
+    <path d="M-26 -50v-14M0 -50v-14M26 -50v-14"/>
+  </g>
+
+  <text x="300" y="320" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="20" font-weight="700" fill="#e6edf3">Gestión de ventas</text>
+</svg>

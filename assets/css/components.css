@@ -1,0 +1,275 @@
+/* ---- BUTTONS ---- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem 1.6rem;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: transform var(--transition), box-shadow var(--transition), background var(--transition), border-color var(--transition);
+  border: 1px solid transparent;
+}
+
+.btn--primary {
+  background: var(--accent-green);
+  color: #04150c;
+}
+
+.btn--primary:hover,
+.btn--primary:focus-visible {
+  box-shadow: 0 0 24px rgba(57, 255, 136, 0.45);
+  transform: translateY(-2px);
+}
+
+.btn--ghost {
+  border-color: var(--border);
+  color: var(--text);
+}
+
+.btn--ghost:hover,
+.btn--ghost:focus-visible {
+  border-color: var(--accent-cyan);
+  box-shadow: var(--glow-cyan);
+  transform: translateY(-2px);
+}
+
+/* ---- LANG TOGGLE ---- */
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  padding: 0.6rem 0.7rem;
+  min-height: 44px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  transition: border-color var(--transition);
+}
+
+.lang-toggle:hover,
+.lang-toggle:focus-visible {
+  border-color: var(--accent-cyan);
+}
+
+.lang-toggle__opt {
+  color: var(--text-muted);
+  transition: color var(--transition);
+}
+
+.lang-toggle__opt.is-active {
+  color: var(--accent-cyan);
+}
+
+.lang-toggle__sep {
+  color: var(--border);
+}
+
+/* ---- CARDS (stack / services / projects) ---- */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+  transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition), background var(--transition);
+}
+
+.card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent-cyan);
+  box-shadow: var(--glow-cyan);
+  transform: translateY(-4px);
+}
+
+.card__title {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card__desc {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
+/* Stack category card */
+.stack-card__category {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-violet);
+  margin-bottom: var(--space-2);
+}
+
+.stack-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text);
+}
+
+/* Project card */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition), background var(--transition);
+}
+
+.project-card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent-cyan);
+  box-shadow: var(--glow-cyan);
+  transform: translateY(-4px);
+}
+
+.project-card__media {
+  aspect-ratio: 16 / 10;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.project-card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-card__body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: var(--space-3);
+}
+
+.project-card__stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: var(--space-2);
+}
+
+.project-card__footer {
+  margin-top: var(--space-3);
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--border);
+}
+
+.project-card__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-cyan);
+  transition: gap var(--transition);
+}
+
+.project-card__link:hover,
+.project-card__link:focus-visible {
+  gap: 0.6rem;
+}
+
+.project-card__link svg {
+  width: 14px;
+  height: 14px;
+}
+
+.project-card__case-label {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+/* ---- CONTACT CARD ---- */
+.contact__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  padding: var(--space-3) var(--space-2);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition);
+}
+
+.contact__card:hover,
+.contact__card:focus-visible {
+  border-color: var(--accent-cyan);
+  box-shadow: var(--glow-cyan);
+  transform: translateY(-4px);
+}
+
+.contact__icon {
+  width: 28px;
+  height: 28px;
+  color: var(--accent-cyan);
+}
+
+.contact__icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* ---- WHATSAPP FLOATING BUTTON ----
+   Fijo en pantalla durante toda la navegación. Aparece recién al
+   salir del hero (que ya tiene su propio CTA grande) para no
+   duplicar el mismo llamado a la acción dos veces en pantalla. */
+.whatsapp-fab {
+  position: fixed;
+  right: var(--space-2);
+  bottom: max(var(--space-2), env(safe-area-inset-bottom, 0px));
+  z-index: 90;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--accent-green);
+  color: #04150c;
+  box-shadow: 0 4px 20px rgba(57, 255, 136, 0.35);
+  opacity: 0;
+  transform: translateY(16px) scale(0.9);
+  pointer-events: none;
+  transition: opacity var(--transition), transform var(--transition), box-shadow var(--transition);
+}
+
+.whatsapp-fab.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+.whatsapp-fab:hover,
+.whatsapp-fab:focus-visible {
+  box-shadow: 0 4px 26px rgba(57, 255, 136, 0.55);
+  transform: translateY(-2px) scale(1.05);
+}
+
+.whatsapp-fab svg {
+  width: 28px;
+  height: 28px;
+}
+
+@media (min-width: 48em) {
+  .whatsapp-fab {
+    right: var(--space-4);
+    bottom: var(--space-4);
+  }
+}

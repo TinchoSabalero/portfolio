@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "title": "Martín Prono — Full-Stack Web Developer",
+    "description": "Full-stack web developer with 7+ years of experience. Custom management systems and AI integration on WhatsApp/Instagram."
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "stack": "Stack",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact",
+    "langSwitch": "Switch language to Spanish"
+  },
+  "hero": {
+    "kicker": "Full-Stack Web Developer",
+    "title": "Martín Prono",
+    "tagline": "I build custom management systems and automate customer support with AI.",
+    "typing": [
+      "PHP / Laravel Developer",
+      "AI Integrator for WhatsApp / Instagram",
+      "7+ years of experience"
+    ],
+    "ctaPrimary": "Let's talk on WhatsApp",
+    "ctaSecondary": "View projects",
+    "scrollHint": "Scroll"
+  },
+  "about": {
+    "title": "About me",
+    "paragraph1": "I'm a software developer with over 7 years of experience and robust problem-solving skills. My greatest virtues are responsibility, pragmatism and perseverance.",
+    "paragraph2": "Throughout my career I've worked on both e-commerce maintenance/improvements (specialized in Magento 2) and full custom system development. Lately I've focused on building management systems for small businesses and independent professionals (sales, appointments, patients) and on integrating AI into real customer-facing channels like WhatsApp and Instagram.",
+    "credential": "Systems Analyst — Instituto ICOP",
+    "location": "Santa Fe, Argentina",
+    "photoAlt": "Profile photo of Martín Prono, full-stack web developer"
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "7+ years working with remote teams and on my own projects",
+    "items": [
+      {
+        "role": "Remote Back-End Developer",
+        "company": "Globant",
+        "period": "Sep 2024 — Mar 2025",
+        "description": "Built custom solutions on Magento 2 Cloud, while also onboarding and training new team members."
+      },
+      {
+        "role": "Remote Full-Stack Developer",
+        "company": "Rentiner",
+        "period": "Jul 2024 — present",
+        "description": "Refactoring and modernizing a legacy car-rental platform built in native PHP, with a progressive migration toward Laravel and PWA development using React within the Magento ecosystem."
+      },
+      {
+        "role": "Remote Full-Stack Developer",
+        "company": "Plexus Tech",
+        "period": "Oct 2022 — Mar 2024",
+        "description": "Custom e-commerce development on Magento 2, keeping the codebase clean and easy to update."
+      },
+      {
+        "role": "Remote Full-Stack Developer",
+        "company": "121ecommerce",
+        "period": "Feb 2022 — Aug 2022",
+        "description": "Development and bug-fixing on Magento 2 stores for international clients."
+      },
+      {
+        "role": "Remote Full-Stack Developer",
+        "company": "Linets",
+        "period": "Oct 2020 — Feb 2022",
+        "description": "Magento 2 specialist: built new features and fixed bugs on existing stores."
+      },
+      {
+        "role": "Full-Stack Developer",
+        "company": "Serfe",
+        "period": "Jan 2019 — Oct 2020",
+        "description": "First large-scale full-stack role, specializing in the Magento 2 framework."
+      },
+      {
+        "role": "Freelance Full-Stack Developer",
+        "company": "J.K. Kilgelmann",
+        "period": "Jun 2017 — Sep 2018",
+        "description": "Designed custom software solutions to solve specific client pain points, with a focus on bug fixing."
+      }
+    ]
+  },
+  "stack": {
+    "title": "Tech stack",
+    "categories": {
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "infra": "Infrastructure",
+      "ecommerce": "E-commerce",
+      "ai": "AI / Integrations",
+      "blockchain": "Blockchain"
+    }
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "What I can do for your business",
+    "items": [
+      {
+        "title": "Custom management systems",
+        "description": "Custom software for sales, appointments, customers and reports, tailored to how your business actually works."
+      },
+      {
+        "title": "Magento e-commerce",
+        "description": "Implementation, integration and maintenance of online stores built on Magento."
+      },
+      {
+        "title": "AI automation",
+        "description": "AI-powered WhatsApp and Instagram bots that handle real customer queries and detect purchase or booking intent."
+      },
+      {
+        "title": "Consulting & modernization",
+        "description": "Review, maintenance and modernization of legacy systems, database optimization and Docker-based deployment."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured projects",
+    "subtitle": "Real cases, with stack verified in production",
+    "visitLabel": "Visit site",
+    "caseStudyLabel": "Private case study",
+    "items": [
+      {
+        "title": "Sales management system for a bar",
+        "description": "Application to manage products, customers, sales and daily/monthly reports, with user roles and automatic backups.",
+        "stack": ["PHP", "MySQL", "Docker"],
+        "image": "assets/img/projects/bar.svg",
+        "url": null
+      },
+      {
+        "title": "Patient management system for a psychology practice",
+        "description": "Platform to manage appointments and patient records, with Google Calendar sync and secure handling of sensitive data.",
+        "stack": ["PHP", "MySQL", "Google Calendar API"],
+        "image": "assets/img/projects/psi.svg",
+        "url": null
+      },
+      {
+        "title": "AI bot for a cabin rental manager",
+        "description": "Bot that replies to WhatsApp and Instagram messages and comments using AI, detects booking intent and moderates spam automatically.",
+        "stack": ["Laravel", "React", "OpenAI API", "Meta Graph API"],
+        "image": "assets/img/projects/casasinti.svg",
+        "url": null
+      },
+      {
+        "title": "Perspectiva Nómade — aerial photography & filming",
+        "description": "Website for a drone photographer: portfolio gallery, Instagram integration and direct WhatsApp contact, optimized for SEO.",
+        "stack": ["PHP", "Docker", "Instagram API", "SEO"],
+        "image": "assets/img/projects/nomade.svg",
+        "url": "https://www.perspectivanomade.com"
+      },
+      {
+        "title": "TerminalTrading — trade tracking dashboard",
+        "description": "Dashboard to analyze trading performance across multiple accounts, with metrics, charts and filters, integrated with the SimpleFX API.",
+        "stack": ["PHP", "MVC", "SimpleFX API"],
+        "image": "assets/img/projects/terminal.svg",
+        "url": null
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Got a project in mind? Reach out.",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "whatsappMessage": "Hi Martín! I saw your portfolio and would like to tell you about a project.",
+    "whatsappAria": "Message me on WhatsApp",
+    "emailAria": "Send me an email",
+    "linkedinAria": "View my LinkedIn profile",
+    "githubAria": "View my GitHub profile"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Designed and built by hand."
+  }
+}

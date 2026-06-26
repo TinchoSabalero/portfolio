@@ -1,0 +1,60 @@
+:root {
+  /* color */
+  --bg: #0a0e14;
+  --bg-card: #11161f;
+  --bg-card-hover: #151b26;
+  --text: #e6edf3;
+  --text-muted: #8b98a9;
+  --accent-cyan: #00f0ff;
+  --accent-violet: #a855f7;
+  --accent-green: #39ff88;
+  --border: #1f2733;
+
+  /* typography */
+  --font-heading: "Space Grotesk", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Courier New", monospace;
+
+  /* spacing */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 5rem;
+  --space-7: 8rem;
+
+  /* layout */
+  --container-width: 1120px;
+  --nav-height: 64px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+
+  /* effects */
+  --glow-cyan: 0 0 20px rgba(0, 240, 255, 0.35);
+  --glow-violet: 0 0 20px rgba(168, 85, 247, 0.35);
+  --transition: 0.25s ease;
+}
+
+@media (min-width: 48em) {
+  :root {
+    --nav-height: 72px;
+  }
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  color: var(--text);
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
