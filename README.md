@@ -1,40 +1,121 @@
-# Portfolio — Martín Prono
+# Martín Prono — Desarrollador Web Full-Stack
 
-Sitio estático (HTML/CSS/JS puro, sin build tool) con switch de idioma ES/EN.
+Desarrollador de software con más de 7 años de experiencia, trabajando de forma remota
+con equipos y clientes de distintos países. Con base en Santa Fe, Argentina.
 
-## Cómo editarlo
+🌐 **[martinprono.pages.dev](https://martinprono.pages.dev/)** · [English version](https://martinprono.pages.dev/en/)
+· [LinkedIn](https://www.linkedin.com/in/mart%C3%ADn-prono-703930127)
 
-- **Textos (español/inglés)**: editá `i18n/es.json` e `i18n/en.json`. No hace falta tocar el HTML para cambiar un texto.
-- **Agregar un proyecto o servicio nuevo**: agregá un objeto más al array `projects.items` o `services.items` en ambos JSON (es/en) — la tarjeta aparece sola, generada por `assets/js/main.js`. Si el proyecto tiene sitio público, completá `"url"`; si es privado, dejá `"url": null` y se muestra como "Caso de estudio privado".
-- **Experiencia laboral**: array `experience.items` en ambos JSON — cada entrada es `{ role, company, period, description }`, se renderiza como timeline.
-- **Stack técnico (los nombres de tecnologías, ej. "PHP", "Docker")**: se editan en `assets/js/main.js`, constante `STACK_DATA` (esos nombres no se traducen, solo el título de cada categoría que sí viene del JSON).
-- **Colores, tipografías, espaciados**: variables en `assets/css/tokens.css`.
-- **Foto de perfil**: ya está tu foto real en `assets/img/profile/yo.jpeg`. Si la querés cambiar, reemplazá ese archivo (o `placeholder.svg` sigue ahí como respaldo) y actualizá el `src` en `index.html` (sección `#about`).
-- **Imágenes de proyectos**: hoy son mockups genéricos en `assets/img/projects/*.svg` (bar, psi, casasinti, nomade, terminal). Si tenés capturas reales (sobre todo de `perspectivanomade.com`, que es pública), reemplazá el archivo correspondiente o cambiá el campo `"image"` del proyecto en el JSON para que apunte a un `.webp`/`.png` real.
-- **WhatsApp**: el número vive en un solo lugar, `WHATSAPP_NUMBER` en `assets/js/main.js` — se usa para el botón del hero, el botón flotante y la card de contacto, así que para cambiarlo solo hay que tocar esa constante. El mensaje predeterminado que se precarga al abrir el chat es `contact.whatsappMessage` en ambos JSON de `i18n/`.
-- **Datos de contacto**: email y LinkedIn reales en `index.html`, sección `#contact`.
-- **Meta tags / preview de LinkedIn**: en el `<head>` de `index.html` están los tags Open Graph, Twitter Card y el JSON-LD (autor + fecha de publicación) que usan LinkedIn/Facebook/WhatsApp para armar la preview del link. Todos apuntan a `https://martinprono.pages.dev/` — **si en algún momento conectás un dominio propio, hay que actualizar esa URL en los 8 lugares donde aparece** (`canonical`, `og:url`, `og:image`, `twitter:image`, `article:*`, JSON-LD) y volver a "limpiar caché" el link en el [LinkedIn Post Inspector](https://www.linkedin.com/post-inspector/), porque LinkedIn cachea la preview vieja.
-- **Imagen de preview (og-image)**: está en `assets/img/og/og-image.jpg` (1200×630). Si cambiás el nombre, rol o tagline del hero, conviene regenerarla para que la preview no quede desactualizada.
+Este repositorio es el código de mi portfolio. Abajo está el resumen de mi trayectoria;
+en el sitio están los proyectos con más detalle.
 
-## Cómo verlo localmente
+---
 
-El sitio usa `fetch()` para cargar los JSON de traducción, así que necesita servirse por HTTP (no funciona abriendo el `index.html` directo con `file://`). Opciones simples:
+## En qué trabajo
 
-```bash
-# con Node (si lo tenés instalado)
-npx serve .
+Me dedico a dos cosas que se complementan bastante:
 
-# o con Python
-python3 -m http.server 8080
-```
+**Sistemas de gestión a medida.** Software pensado para cómo trabaja un negocio en
+concreto, no al revés: ventas, turnos, stock, pacientes, reportes. Lo hago sobre todo
+para pequeños negocios y profesionales independientes, donde un producto genérico
+suele sobrar por un lado y faltar por otro.
 
-Después abrí `http://localhost:8080` (o el puerto que indique la herramienta).
+**E-commerce y modernización de sistemas legacy.** Buena parte de mi carrera fue
+Magento 2 —desarrollo, integraciones, corrección de errores en tiendas en producción— y
+más recientemente migraciones progresivas de PHP nativo hacia Laravel, sin frenar el
+negocio mientras se hace.
 
-## Cómo publicarlo gratis (Cloudflare Pages)
+En los últimos años sumé un tercer foco: **integrar inteligencia artificial en canales
+reales de atención al cliente**, principalmente WhatsApp e Instagram, con bots que
+responden consultas de verdad y detectan intención de compra o reserva.
 
-1. Subí esta carpeta a un repositorio de GitHub.
-2. Entrá a [Cloudflare Pages](https://pages.cloudflare.com/), conectá el repo.
-3. Build command: vacío (no hay build). Output directory: `/` (raíz).
-4. Cloudflare te da una URL `tu-proyecto.pages.dev` con HTTPS automático.
+## Trayectoria
 
-Cada vez que hagas push al repo, el sitio se actualiza solo.
+| Período | Rol | Dónde |
+|---|---|---|
+| jul. 2024 — actualidad | Desarrollador Full-Stack Remoto | **Rentiner** |
+| sep. 2024 — mar. 2025 | Desarrollador Back-End Remoto | **Globant** |
+| oct. 2022 — mar. 2024 | Desarrollador Full-Stack Remoto | **Plexus Tech** |
+| feb. 2022 — ago. 2022 | Desarrollador Full-Stack Remoto | **121ecommerce** |
+| oct. 2020 — feb. 2022 | Desarrollador Full-Stack Remoto | **Linets** |
+| ene. 2019 — oct. 2020 | Desarrollador Full-Stack | **Serfe** |
+| jun. 2017 — sep. 2018 | Desarrollador Full-Stack Freelance | **J.K. Kilgelmann** |
+
+Empecé como freelance resolviendo problemas puntuales de clientes, y en Serfe tuve la
+primera experiencia full-stack a gran escala, especializándome en Magento 2. Eso derivó
+en varios años de trabajo remoto para agencias y clientes internacionales —Linets,
+121ecommerce, Plexus Tech— y después en Globant, sobre Magento 2 Cloud, donde además
+participé del onboarding y la capacitación de nuevos integrantes del equipo.
+
+Hoy, en Rentiner, estoy en la refactorización y modernización de una plataforma legacy
+de alquiler de autos escrita en PHP nativo, con migración progresiva a Laravel y
+desarrollo de una PWA en React dentro del ecosistema Magento.
+
+**Formación:** Analista de Sistemas — Instituto ICOP.
+
+## Stack
+
+**Backend** · PHP · Laravel · MySQL · PostgreSQL · Python
+**Frontend** · JavaScript · TypeScript · React · Angular · Astro · HTML/CSS
+**Infraestructura** · Docker · Redis · Nginx · Git
+**E-commerce** · Magento 2 · Shopify · WordPress
+**IA / Integraciones** · OpenAI API · Meta Graph API
+
+## Algunos proyectos
+
+- **Protein Club Manager** — Sistema de gestión para una red de franquicias
+  gastronómicas: punto de venta, mapa de mesas, delivery, monitor de cocina, reportes y
+  multi-sucursal con aislamiento de datos por franquicia, más un panel de super admin y
+  un sitio público editable desde un CMS propio. *Laravel · React + TypeScript ·
+  PostgreSQL · Astro · Docker*
+- **Bot de IA para una administradora de cabañas** — Responde mensajes y comentarios de
+  WhatsApp e Instagram, detecta intención de reserva y modera spam.
+  *Laravel · React · OpenAI API · Meta Graph API*
+- **[Perspectiva Nómade](https://www.perspectivanomade.com)** — Sitio para un fotógrafo
+  de drones, con galería, integración con Instagram y contacto directo por WhatsApp.
+  *PHP · Docker · Instagram API*
+- **Gestión de pacientes para un consultorio psicológico** — Turnos y fichas con
+  sincronización de Google Calendar y manejo cuidadoso de datos sensibles.
+  *PHP · MySQL · Google Calendar API*
+
+El detalle completo está en **[el portfolio](https://martinprono.pages.dev/)**.
+
+## Contacto
+
+Estoy disponible para proyectos remotos con clientes de cualquier país. Trabajo en
+español e inglés.
+
+- 💬 [WhatsApp](https://wa.me/5493425148399)
+- ✉️ martinpro_95@hotmail.com
+- 💼 [LinkedIn](https://www.linkedin.com/in/mart%C3%ADn-prono-703930127)
+
+---
+
+<details>
+<summary><b>English summary</b></summary>
+
+<br>
+
+I'm **Martín Prono**, a full-stack web developer with 7+ years of experience, working
+remotely with teams and clients across different countries. Based in Santa Fe, Argentina.
+
+I build **custom management systems** (sales, appointments, inventory, patient records,
+reporting) for small businesses and independent professionals, and I work extensively on
+**e-commerce and legacy modernization** — years of Magento 2 development for
+international agencies, and more recently progressive migrations from native PHP to
+Laravel. I also **integrate AI into real customer-facing channels**, mainly WhatsApp and
+Instagram, with bots that handle genuine customer queries and detect purchase or booking
+intent.
+
+Previously at **Globant**, **Plexus Tech**, **121ecommerce**, **Linets** and **Serfe**;
+currently at **Rentiner**, modernizing a legacy car-rental platform.
+
+**Stack:** PHP · Laravel · MySQL · PostgreSQL · Python · JavaScript · TypeScript · React ·
+Angular · Astro · Docker · Redis · Magento 2 · OpenAI API · Meta Graph API
+
+Available for remote projects worldwide, working in Spanish and English.
+Portfolio: **[martinprono.pages.dev/en/](https://martinprono.pages.dev/en/)** ·
+[LinkedIn](https://www.linkedin.com/in/mart%C3%ADn-prono-703930127) ·
+martinpro_95@hotmail.com
+
+</details>

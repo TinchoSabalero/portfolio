@@ -180,9 +180,22 @@
 }
 
 .hero__title {
+  margin: var(--space-2) 0;
+}
+
+/* El h1 envuelve rol + nombre; cada parte define su propio tamaño. */
+.hero__kicker {
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: var(--space-2);
+}
+
+.hero__name {
+  display: block;
   font-size: clamp(2.6rem, 12vw, 6.5rem);
   line-height: 1;
-  margin: var(--space-2) 0;
 }
 
 .hero__typing {

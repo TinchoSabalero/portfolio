@@ -1,0 +1,56 @@
+[
+  {
+    "key": "backend",
+    "tags": [
+      "PHP",
+      "Laravel",
+      "MySQL",
+      "PostgreSQL",
+      "Python"
+    ]
+  },
+  {
+    "key": "frontend",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Angular",
+      "Astro",
+      "Bootstrap"
+    ]
+  },
+  {
+    "key": "infra",
+    "tags": [
+      "Docker",
+      "Redis",
+      "Nginx",
+      "Git",
+      "SVN"
+    ]
+  },
+  {
+    "key": "ecommerce",
+    "tags": [
+      "Magento 2",
+      "Shopify",
+      "WordPress"
+    ]
+  },
+  {
+    "key": "ai",
+    "tags": [
+      "OpenAI API",
+      "Meta Graph API"
+    ]
+  },
+  {
+    "key": "blockchain",
+    "tags": [
+      "Solidity"
+    ]
+  }
+]

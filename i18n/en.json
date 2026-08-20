@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Martín Prono — Full-Stack Web Developer",
-    "description": "Full-stack web developer with 7+ years of experience. Custom management systems and AI integration on WhatsApp/Instagram."
+    "description": "Full-stack web developer with 7+ years of experience, available for remote work worldwide. Custom systems, Magento 2 and AI integration on WhatsApp."
   },
   "nav": {
     "about": "About",
@@ -10,7 +10,8 @@
     "services": "Services",
     "projects": "Projects",
     "contact": "Contact",
-    "langSwitch": "Switch language to Spanish"
+    "langSwitch": "Switch language to Spanish",
+    "menuAria": "Open menu"
   },
   "hero": {
     "kicker": "Full-Stack Web Developer",
@@ -121,37 +122,73 @@
     "caseStudyLabel": "Private case study",
     "items": [
       {
+        "title": "Protein Club — franchise network management system",
+        "description": "Multi-branch platform with point of sale, table map, delivery and kitchen display, plus a super-admin panel to provision franchises and a public website editable through its own CMS.",
+        "stack": [
+          "Laravel",
+          "React",
+          "TypeScript",
+          "PostgreSQL",
+          "Astro",
+          "Docker"
+        ],
+        "image": "assets/img/projects/protco.svg",
+        "url": null
+      },
+      {
         "title": "Sales management system for a bar",
         "description": "Application to manage products, customers, sales and daily/monthly reports, with user roles and automatic backups.",
-        "stack": ["PHP", "MySQL", "Docker"],
+        "stack": [
+          "PHP",
+          "MySQL",
+          "Docker"
+        ],
         "image": "assets/img/projects/bar.svg",
         "url": null
       },
       {
         "title": "Patient management system for a psychology practice",
         "description": "Platform to manage appointments and patient records, with Google Calendar sync and secure handling of sensitive data.",
-        "stack": ["PHP", "MySQL", "Google Calendar API"],
+        "stack": [
+          "PHP",
+          "MySQL",
+          "Google Calendar API"
+        ],
         "image": "assets/img/projects/psi.svg",
         "url": null
       },
       {
         "title": "AI bot for a cabin rental manager",
         "description": "Bot that replies to WhatsApp and Instagram messages and comments using AI, detects booking intent and moderates spam automatically.",
-        "stack": ["Laravel", "React", "OpenAI API", "Meta Graph API"],
+        "stack": [
+          "Laravel",
+          "React",
+          "OpenAI API",
+          "Meta Graph API"
+        ],
         "image": "assets/img/projects/casasinti.svg",
         "url": null
       },
       {
         "title": "Perspectiva Nómade — aerial photography & filming",
         "description": "Website for a drone photographer: portfolio gallery, Instagram integration and direct WhatsApp contact, optimized for SEO.",
-        "stack": ["PHP", "Docker", "Instagram API", "SEO"],
+        "stack": [
+          "PHP",
+          "Docker",
+          "Instagram API",
+          "SEO"
+        ],
         "image": "assets/img/projects/nomade.svg",
         "url": "https://www.perspectivanomade.com"
       },
       {
         "title": "TerminalTrading — trade tracking dashboard",
         "description": "Dashboard to analyze trading performance across multiple accounts, with metrics, charts and filters, integrated with the SimpleFX API.",
-        "stack": ["PHP", "MVC", "SimpleFX API"],
+        "stack": [
+          "PHP",
+          "MVC",
+          "SimpleFX API"
+        ],
         "image": "assets/img/projects/terminal.svg",
         "url": null
       }
