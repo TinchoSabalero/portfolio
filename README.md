@@ -71,7 +71,7 @@ desarrollo de una PWA en React dentro del ecosistema Magento.
 - **Bot de IA para una administradora de cabañas** — Responde mensajes y comentarios de
   WhatsApp e Instagram, detecta intención de reserva y modera spam.
   *Laravel · React · OpenAI API · Meta Graph API*
-- **[Perspectiva Nómade](https://www.perspectivanomade.com)** — Sitio para un fotógrafo
+- **[Perspectiva Nómade](https://perspectivanomade.lovestoblog.com)** — Sitio para un fotógrafo
   de drones, con galería, integración con Instagram y contacto directo por WhatsApp.
   *PHP · Docker · Instagram API*
 - **Gestión de pacientes para un consultorio psicológico** — Turnos y fichas con

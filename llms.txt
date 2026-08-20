@@ -30,7 +30,7 @@ Es un buen match para: desarrollo de sistemas de gestión a medida (ventas, turn
 - Sistema de gestión de ventas para un bar (PHP, MySQL, Docker) — caso privado
 - Sistema de gestión de pacientes para un consultorio psicológico, con sincronización de Google Calendar (PHP, MySQL) — caso privado
 - Bot de IA para atención de una administradora de cabañas vía WhatsApp/Instagram (Laravel, React, OpenAI API, Meta Graph API) — caso privado
-- [Perspectiva Nómade](https://www.perspectivanomade.com) — sitio para un fotógrafo de drones (PHP, Docker, Instagram API), público
+- [Perspectiva Nómade](https://perspectivanomade.lovestoblog.com) — sitio para un fotógrafo de drones (PHP, Docker, Instagram API), público
 - TerminalTrading — dashboard de seguimiento de operaciones de trading (PHP, SimpleFX API) — caso privado
 
 ## Contacto
